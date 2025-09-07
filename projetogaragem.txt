@@ -23,3 +23,9 @@ CREATE TABLE garagens (
 );
 
 select version();
+
+-- inserir os dados do usuario manualmente
+INSERT INTO usuarios (nome, email, senha) VALUES ('Henrique', 'ShaolinMatadorDePorco@gmail.com', 'JogoDaCobrinha');
+
+SELECT * FROM usuarios;
+SELECT * FROM garagens;
